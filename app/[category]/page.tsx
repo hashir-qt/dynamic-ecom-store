@@ -1,4 +1,4 @@
-import { simplifiedProduct } from "@/sanity/schemaTypes/interface";
+import { simplifiedProduct } from "@/app/interface";
 import { client } from "../lib/sanity";
 import Link from "next/link";
 import Image from "next/image";

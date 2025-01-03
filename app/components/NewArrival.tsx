@@ -3,7 +3,7 @@ import Link from "next/link";
 import { client } from "../lib/sanity";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
-import { simplifiedProduct } from "@/sanity/schemaTypes/interface";
+import { simplifiedProduct } from "@/app/interface";
 
 async function getData() {
   const query = `*[_type == "product"][0...4] | order(_createdAt desc) {

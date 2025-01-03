@@ -4,7 +4,7 @@ import ImageGallery from "@/app/components/ImageColl";
 
 import { client } from "@/app/lib/sanity";
 import { Button } from "@/components/ui/button";
-import { fullProduct } from "@/sanity/schemaTypes/interface";
+import { fullProduct } from "@/app/interface";
 import { Star, Truck } from "lucide-react";
 
 async function getData(slug: string) {
