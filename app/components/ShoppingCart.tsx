@@ -99,7 +99,7 @@ export default function ShoppingCart() {
             </p>
 
             <div className="mt-6">
-              <Button onClick={handleCheckoutClick} className="w-full">
+              <Button onClick={handleCheckoutClick} className="w-">
                 Checkout
               </Button>
             </div>
