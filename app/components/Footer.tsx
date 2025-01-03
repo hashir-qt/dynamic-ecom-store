@@ -55,7 +55,7 @@ export function Footer() {
             <h3 className="text-lg font-semibold">Stay Updated</h3>
             <p className="text-sm text-muted-foreground">Get Our latest products and  delivered straight to your Home.</p>
             <Link href="/newsletter">
-              <Button className="w-full">
+              <Button className="w-full mt-5">
                 Subscribe to Our Newsletter
               </Button>
             </Link>
