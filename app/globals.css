@@ -2,26 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Light Mode Variables */
+    --background: 45 15% 96%; /* Ivory with a hint of gold */
+    --foreground: 230 25% 15%; /* Deep ebony */
+    --card: 45 10% 98%; /* Pure ivory */
+    --card-foreground: 230 25% 15%; /* Deep ebony */
+    --popover: 45 10% 98%; /* Pure ivory */
+    --popover-foreground: 230 25% 15%; /* Deep ebony */
+    --primary: 240 75% 40%; /* Regal sapphire blue */
+    --primary-foreground: 0 0% 100%; /* Crisp white */
+    --secondary: 30 50% 55%; /* Polished goldenrod */
+    --secondary-foreground: 230 25% 15%; /* Deep ebony */
+    --muted: 45 10% 90%; /* Subtle champagne */
+    --muted-foreground: 230 20% 40%; /* Dark slate gray */
+    --accent: 340 70% 45%; /* Majestic ruby red */
+    --accent-foreground: 0 0% 100%; /* Crisp white */
+    --destructive: 0 85% 50%; /* Dramatic scarlet */
+    --destructive-foreground: 0 0% 100%; /* Crisp white */
+    --border: 45 10% 85%; /* Soft champagne-gray for borders */
+    --input: 45 15% 98%; /* Ivory for inputs */
+    --ring: 240 60% 50%; /* Vibrant sapphire blue */
+    --radius: 0.5rem; /* Modern soft rounded corners */
+  }
+
+  .dark {
+    /* Dark Mode Variables */
+    --background: 230 20% 10%; /* Rich obsidian black */
+    --foreground: 45 10% 90%; /* Elegant pearl white */
+    --card: 230 20% 15%; /* Muted ebony */
+    --card-foreground: 45 10% 90%; /* Elegant pearl white */
+    --popover: 230 20% 10%; /* Rich obsidian black */
+    --popover-foreground: 45 10% 90%; /* Elegant pearl white */
+    --primary: 240 60% 50%; /* Bright sapphire */
+    --primary-foreground: 0 0% 100%; /* Crisp white */
+    --secondary: 30 60% 35%; /* Antique gold */
+    --secondary-foreground: 45 10% 90%; /* Elegant pearl white */
+    --muted: 230 15% 25%; /* Muted charcoal */
+    --muted-foreground: 45 10% 80%; /* Light pearl gray */
+    --accent: 340 60% 55%; /* Bold ruby red */
+    --accent-foreground: 0 0% 100%; /* Crisp white */
+    --destructive: 0 70% 45%; /* Dark crimson */
+    --destructive-foreground: 0 0% 100%; /* Crisp white */
+    --border: 230 15% 35%; /* Deep slate-gray */
+    --input: 230 20% 25%; /* Muted charcoal for inputs */
+    --ring: 240 40% 60%; /* Sapphire focus rings */
+    --radius: 0.5rem; /* Modern soft rounded corners */
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }
