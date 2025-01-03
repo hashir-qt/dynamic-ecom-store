@@ -33,7 +33,7 @@ export default async function ProductPge({
   const data: fullProduct = await getData(params.slug);
 
   return (
-    <div>
+    <div className="mb-12">
       <div className="mx-auto max-w-screen-xl px-4 md:px-8">
         <div className="grid gap-8 md:grid-cols-2">
           <ImageGallery images={data.images} />

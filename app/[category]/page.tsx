@@ -21,7 +21,7 @@ async function getData(category: string) {
 export default async function CategoryPage({params}:{params:{category: string}}) {
     const data: simplifiedProduct[] = await getData(params.category);
     return (
-        <div className="">
+        <div className="mb-12">
       <div className="mx-auto max-w-2xl px-4  sm:px-6  lg:max-w-7xl lg:px-8">
         <div className="flex justify-between items-center">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">
