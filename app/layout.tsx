@@ -27,9 +27,10 @@ export default function RootLayout({
         <CartProvider>
        <Navbar/>
        <ShoppingCart/>
-        {children}
+       <main  className="mx-auto max-w-2xl py-5 px-4 sm:px-6 lg:max-w-7xl">{children} <Footer/></main>
         </CartProvider>
-        <Footer/>
+       
+        
       </body>
     </html>
   );
