@@ -5,49 +5,49 @@
 @layer base {
   :root {
     /* Light Mode Variables */
-    --background: 45 15% 96%; /* Ivory with a hint of gold */
-    --foreground: 230 25% 15%; /* Deep ebony */
-    --card: 45 10% 98%; /* Pure ivory */
-    --card-foreground: 230 25% 15%; /* Deep ebony */
-    --popover: 45 10% 98%; /* Pure ivory */
-    --popover-foreground: 230 25% 15%; /* Deep ebony */
-    --primary: 240 75% 40%; /* Regal sapphire blue */
+    --background: 280 15% 96%; /* Soft lavender mist */
+    --foreground: 290 30% 20%; /* Deep plum */
+    --card: 280 10% 98%; /* Pure lavender */
+    --card-foreground: 290 30% 20%; /* Deep plum */
+    --popover: 280 10% 98%; /* Pure lavender */
+    --popover-foreground: 290 30% 20%; /* Deep plum */
+    --primary: 300 70% 50%; /* Vibrant violet */
     --primary-foreground: 0 0% 100%; /* Crisp white */
-    --secondary: 30 50% 55%; /* Polished goldenrod */
-    --secondary-foreground: 230 25% 15%; /* Deep ebony */
-    --muted: 45 10% 90%; /* Subtle champagne */
-    --muted-foreground: 230 20% 40%; /* Dark slate gray */
-    --accent: 340 70% 45%; /* Majestic ruby red */
+    --secondary: 330 50% 60%; /* Playful pink rose */
+    --secondary-foreground: 290 30% 20%; /* Deep plum */
+    --muted: 280 15% 90%; /* Delicate lilac */
+    --muted-foreground: 290 20% 40%; /* Muted aubergine */
+    --accent: 330 70% 55%; /* Bold fuchsia */
     --accent-foreground: 0 0% 100%; /* Crisp white */
-    --destructive: 0 85% 50%; /* Dramatic scarlet */
+    --destructive: 0 85% 55%; /* Fiery coral pink */
     --destructive-foreground: 0 0% 100%; /* Crisp white */
-    --border: 45 10% 85%; /* Soft champagne-gray for borders */
-    --input: 45 15% 98%; /* Ivory for inputs */
-    --ring: 240 60% 50%; /* Vibrant sapphire blue */
+    --border: 280 15% 85%; /* Soft lavender-gray for borders */
+    --input: 280 15% 98%; /* Light lavender for inputs */
+    --ring: 300 60% 55%; /* Bright orchid */
     --radius: 0.5rem; /* Modern soft rounded corners */
   }
 
   .dark {
     /* Dark Mode Variables */
-    --background: 230 20% 10%; /* Rich obsidian black */
-    --foreground: 45 10% 90%; /* Elegant pearl white */
-    --card: 230 20% 15%; /* Muted ebony */
-    --card-foreground: 45 10% 90%; /* Elegant pearl white */
-    --popover: 230 20% 10%; /* Rich obsidian black */
-    --popover-foreground: 45 10% 90%; /* Elegant pearl white */
-    --primary: 240 60% 50%; /* Bright sapphire */
+    --background: 290 30% 10%; /* Deep midnight violet */
+    --foreground: 280 15% 90%; /* Pale lavender white */
+    --card: 290 30% 15%; /* Muted plum */
+    --card-foreground: 280 15% 90%; /* Pale lavender white */
+    --popover: 290 30% 10%; /* Deep midnight violet */
+    --popover-foreground: 280 15% 90%; /* Pale lavender white */
+    --primary: 300 60% 60%; /* Bright orchid violet */
     --primary-foreground: 0 0% 100%; /* Crisp white */
-    --secondary: 30 60% 35%; /* Antique gold */
-    --secondary-foreground: 45 10% 90%; /* Elegant pearl white */
-    --muted: 230 15% 25%; /* Muted charcoal */
-    --muted-foreground: 45 10% 80%; /* Light pearl gray */
-    --accent: 340 60% 55%; /* Bold ruby red */
+    --secondary: 330 60% 40%; /* Dusky rose pink */
+    --secondary-foreground: 280 15% 90%; /* Pale lavender white */
+    --muted: 290 20% 25%; /* Dusky eggplant */
+    --muted-foreground: 280 15% 80%; /* Soft lilac gray */
+    --accent: 330 60% 65%; /* Electric fuchsia */
     --accent-foreground: 0 0% 100%; /* Crisp white */
-    --destructive: 0 70% 45%; /* Dark crimson */
+    --destructive: 0 70% 50%; /* Bold ruby red */
     --destructive-foreground: 0 0% 100%; /* Crisp white */
-    --border: 230 15% 35%; /* Deep slate-gray */
-    --input: 230 20% 25%; /* Muted charcoal for inputs */
-    --ring: 240 40% 60%; /* Sapphire focus rings */
+    --border: 290 20% 35%; /* Dark plum-gray */
+    --input: 290 30% 25%; /* Dusky eggplant for inputs */
+    --ring: 300 50% 65%; /* Orchid focus rings */
     --radius: 0.5rem; /* Modern soft rounded corners */
   }
 }
