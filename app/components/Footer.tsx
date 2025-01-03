@@ -1,6 +1,7 @@
 "use client";
 import Link from 'next/link'
 import { Facebook, Instagram, Twitter } from 'lucide-react'
+import { Button } from '@/components/ui/button';
 
 export function Footer() {
   return (
@@ -50,23 +51,16 @@ export function Footer() {
                 <span className="sr-only">Twitter</span>
               </a>
             </div>
-            <div className="mt-4">
-              <h4 className="text-sm font-semibold mb-2">Subscribe to our newsletter</h4>
-              <form className="flex">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="flex-grow px-3 py-2 border border-input rounded-l-md focus:outline-none focus:ring-2 focus:ring-primary"
-                />
-                <button
-                  type="submit"
-                  className="bg-primary text-primary-foreground px-4 py-2 rounded-r-md hover:bg-primary/90 transition-colors"
-                >
-                  Subscribe
-                </button>
-              </form>
-            </div>
+            <div className="space-y-4">
+            <h3 className="text-lg font-semibold">Stay Updated</h3>
+            <p className="text-sm text-muted-foreground">Get Our latest products and  delivered straight to your Home.</p>
+            <Link href="/newsletter">
+              <Button className="w-full">
+                Subscribe to Our Newsletter
+              </Button>
+            </Link>
           </div>
+        </div>
         </div>
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
           <p>&copy; {new Date().getFullYear()} UrbanStich. All rights reserved.</p>
